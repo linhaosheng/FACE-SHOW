@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/choose_photo"
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:text="请选择图片的来源"
+        android:textSize="30dip"
+        android:textColor="@color/red"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="打开摄像头"
+        />
+    <Button
+        android:id="@+id/photo"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="打开本地图库"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
